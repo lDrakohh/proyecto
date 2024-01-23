@@ -16,7 +16,7 @@ Petclinic is a [Spring Boot](https://spring.io/guides/gs/spring-boot) applicatio
 
 
 ```
-git clone https://github.com/gii-is-DP1/spring-petclinic.git
+git clone https://github.com/gii-is-psg2/react-petclinic.git
 cd spring-petclinic
 ./mvnw package
 java -jar target/*.jar
@@ -54,7 +54,7 @@ The following items should be installed in your system:
 
 1) On the command line
 ```
-git clone https://github.com/gii-is-DP1/spring-petclinic.git
+git clone https://github.com/gii-is-psg2/react-petclinic.git
 ```
 2) Inside Eclipse or STS
 ```
@@ -82,8 +82,8 @@ Visit [http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagge
 
 |Spring Boot Configuration | Class or Java property files  |
 |--------------------------|---|
-|The Main Class | [PetClinicApplication](https://github.com/gii-is-DP1/spring-petclinic/blob/master/src/main/java/org/springframework/samples/petclinic/PetClinicApplication.java) |
-|Properties Files | [application.properties](https://github.com/gii-is-DP1/spring-petclinic/blob/master/src/main/resources) |
+|The Main Class | [PetClinicApplication](https://github.com/gii-is-psg2/react-petclinic/blob/main/src/main/java/org/springframework/samples/petclinic/PetclinicApplication.java) |
+|Properties Files | [application.properties](https://github.com/gii-is-psg2/react-petclinic/blob/main/src/main/resources/application.properties) |
 
 
 ## Starting the frontend
