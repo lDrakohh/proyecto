@@ -12,10 +12,10 @@ import io.swagger.v3.oas.annotations.servers.Server;
 @Configuration
 @OpenAPIDefinition(
   info =@Info(
-    title = "PetClinic APIs",
+    title = "PSG2-2324-GX-XY Petclinic APIs",
     version = "v1.0",
     contact = @Contact(
-      name = "PSG2-2324-Gx-xy", email = "psg2-2324-gx-xy@gmail.com", url = "https://psg2-2324-gx-xy.ew.r.appspot.com/"
+      name = "PSG2-2324-GX-XY", email = "psg2-2324-gx-xy@gmail.com", url = "https://psg2-2324-gx-xy.ew.r.appspot.com/"
     ),
     license = @License(
       name = "Apache 2.0", url = "https://www.apache.org/licenses/LICENSE-2.0"
