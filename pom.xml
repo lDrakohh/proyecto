@@ -247,7 +247,7 @@
 			<plugin>
 				<artifactId>maven-resources-plugin</artifactId>
 				<executions>
-					<execution>
+					<!--execution>
 						<id>position-react-build</id>
 						<goals>
 							<goal>copy-resources</goal>
@@ -262,7 +262,7 @@
 								</resource>
 							</resources>
 						</configuration>
-					</execution>
+					</execution-->
 					<execution>
 						<id>coverage-move</id>
 						<goals>
@@ -284,6 +284,12 @@
 					</execution>
 				</executions>
 			</plugin>
+
+            <plugin>
+                <groupId>com.google.cloud.tools</groupId>
+                <artifactId>appengine-maven-plugin</artifactId>
+                <version>2.4.4</version>
+            </plugin>
 
 			<!-- Spring Boot Actuator displays build-related information if a git.properties
             file is present at the classpath -->
