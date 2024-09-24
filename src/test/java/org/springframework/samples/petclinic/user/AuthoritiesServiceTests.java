@@ -1,4 +1,4 @@
-package org.springframework.samples.petclinic.user;
+package org.springframework.samples.Temis.user;
 
 import static org.junit.Assert.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -12,7 +12,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.samples.petclinic.exceptions.ResourceNotFoundException;
+import org.springframework.samples.Temis.exceptions.ResourceNotFoundException;
 import org.springframework.transaction.annotation.Transactional;
 
 //@DataJpaTest(includeFilters = @ComponentScan.Filter(Service.class))

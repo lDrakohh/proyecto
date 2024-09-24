@@ -1,11 +1,11 @@
-package org.springframework.samples.petclinic.configuration;
+package org.springframework.samples.Temis.configuration;
 
 import java.util.Arrays;
 
 import org.springframework.boot.test.context.TestConfiguration;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Primary;
-import org.springframework.samples.petclinic.configuration.services.UserDetailsImpl;
+import org.springframework.samples.Temis.configuration.services.UserDetailsImpl;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;

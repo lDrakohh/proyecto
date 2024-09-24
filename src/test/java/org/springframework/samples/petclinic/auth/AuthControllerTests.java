@@ -1,4 +1,4 @@
-package org.springframework.samples.petclinic.auth;
+package org.springframework.samples.Temis.auth;
 
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.doNothing;
@@ -21,11 +21,11 @@ import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.FilterType;
 import org.springframework.http.MediaType;
-import org.springframework.samples.petclinic.auth.payload.request.LoginRequest;
-import org.springframework.samples.petclinic.auth.payload.request.SignupRequest;
-import org.springframework.samples.petclinic.configuration.jwt.JwtUtils;
-import org.springframework.samples.petclinic.configuration.services.UserDetailsImpl;
-import org.springframework.samples.petclinic.user.UserService;
+import org.springframework.samples.Temis.auth.payload.request.LoginRequest;
+import org.springframework.samples.Temis.auth.payload.request.SignupRequest;
+import org.springframework.samples.Temis.configuration.jwt.JwtUtils;
+import org.springframework.samples.Temis.configuration.services.UserDetailsImpl;
+import org.springframework.samples.Temis.user.UserService;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.config.annotation.web.WebSecurityConfigurer;

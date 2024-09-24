@@ -1,4 +1,4 @@
-package org.springframework.samples.petclinic.auth;
+package org.springframework.samples.Temis.auth;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -7,10 +7,10 @@ import java.util.Collection;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.samples.petclinic.auth.payload.request.SignupRequest;
-import org.springframework.samples.petclinic.user.AuthoritiesService;
-import org.springframework.samples.petclinic.user.User;
-import org.springframework.samples.petclinic.user.UserService;
+import org.springframework.samples.Temis.auth.payload.request.SignupRequest;
+import org.springframework.samples.Temis.user.AuthoritiesService;
+import org.springframework.samples.Temis.user.User;
+import org.springframework.samples.Temis.user.UserService;
 import org.springframework.transaction.annotation.Transactional;
 
 @SpringBootTest

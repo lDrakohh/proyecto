@@ -1,4 +1,4 @@
-package org.springframework.samples.petclinic.user;
+package org.springframework.samples.Temis.user;
 
 import static org.junit.Assert.assertTrue;
 import static org.mockito.ArgumentMatchers.any;
@@ -22,9 +22,9 @@ import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.FilterType;
 import org.springframework.http.MediaType;
-import org.springframework.samples.petclinic.configuration.SecurityConfiguration;
-import org.springframework.samples.petclinic.exceptions.AccessDeniedException;
-import org.springframework.samples.petclinic.exceptions.ResourceNotFoundException;
+import org.springframework.samples.Temis.configuration.SecurityConfiguration;
+import org.springframework.samples.Temis.exceptions.AccessDeniedException;
+import org.springframework.samples.Temis.exceptions.ResourceNotFoundException;
 import org.springframework.security.config.annotation.web.WebSecurityConfigurer;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.context.SecurityContextHolder;
