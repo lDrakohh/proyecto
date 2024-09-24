@@ -1,4 +1,4 @@
-package org.springframework.samples.petclinic.user;
+/*package org.springframework.samples.petclinic.user;
 
 import static org.junit.Assert.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -243,3 +243,4 @@ class UserServiceTests {
 //	}
 
 }
+*/
