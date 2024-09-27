@@ -30,72 +30,17 @@ function AppNavbar() {
             adminLinks = (
                 <>
                     <NavItem>
-                        <NavLink style={{ color: "white" }} tag={Link} to="/owners">Owners</NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink style={{ color: "white" }} tag={Link} to="/pets">Pets</NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink style={{ color: "white" }} tag={Link} to="/vets">Vets</NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink style={{ color: "white" }} tag={Link} to="/consultations">Consultations</NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink style={{ color: "white" }} tag={Link} to="/clinicOwners">Clinic Owners</NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink style={{ color: "white" }} tag={Link} to="/clinics">Clinics</NavLink>
-                    </NavItem>
-                    <NavItem>
                         <NavLink style={{ color: "white" }} tag={Link} to="/users">Users</NavLink>
                     </NavItem>
                 </>
             )
         }
-        if (role === "OWNER") {
-            ownerLinks = (
-                <>
-                    <NavItem>
-                        <NavLink style={{ color: "white" }} tag={Link} to="/myPets">My Pets</NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink style={{ color: "white" }} tag={Link} to="/consultations">Consultations</NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink style={{ color: "white" }} tag={Link} to="/plan">Plan</NavLink>
-                    </NavItem>
-                </>
-            )
-        }
-        if (role === "VET") {
-            ownerLinks = (
-                <>
-                    <NavItem>
-                        <NavLink style={{ color: "white" }} tag={Link} to="/consultations">Consultations</NavLink>
-                    </NavItem>
-                </>
-            )
-        }
-
-        if (role === "CLINIC_OWNER") {
-            ownerLinks = (
-                <>
-                    <NavItem>
-                        <NavLink style={{ color: "white" }} tag={Link} to="/clinics">Clinics</NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink style={{ color: "white" }} tag={Link} to="/owners">Owners</NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink style={{ color: "white" }} tag={Link} to="/consultations">Consultations</NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink style={{ color: "white" }} tag={Link} to="/vets">Vets</NavLink>
-                    </NavItem>
-                </>
-            )
-        }
+        // if (role === "OWNER") {
+        //     ownerLinks = (
+        //         <>
+        //         </>
+        //     )
+        // }
     })
 
     if (!jwt) {
@@ -105,12 +50,6 @@ function AppNavbar() {
                     <NavLink style={{ color: "white" }} id="docs" tag={Link} to="/docs">Docs</NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink style={{ color: "white" }} id="plans" tag={Link} to="/plans">Pricing Plans</NavLink>
-                </NavItem>
-                <NavItem>
-                    <NavLink style={{ color: "white" }} id="register" tag={Link} to="/register">Register</NavLink>
-                </NavItem>
-                <NavItem>
                     <NavLink style={{ color: "white" }} id="login" tag={Link} to="/login">Login</NavLink>
                 </NavItem>
             </>
@@ -118,18 +57,12 @@ function AppNavbar() {
     } else {
         userLinks = (
             <>
-                <NavItem>
-                    <NavLink style={{ color: "white" }} tag={Link} to="/dashboard">Dashboard</NavLink>
-                </NavItem>
             </>
         )
         userLogout = (
             <>
                 <NavItem>
                     <NavLink style={{ color: "white" }} id="docs" tag={Link} to="/docs">Docs</NavLink>
-                </NavItem>
-                <NavItem>
-                    <NavLink style={{ color: "white" }} id="plans" tag={Link} to="/plans">Pricing Plans</NavLink>
                 </NavItem>
                 <NavbarText style={{ color: "white" }} className="justify-content-end">{username}</NavbarText>
                 <NavItem className="d-flex">
